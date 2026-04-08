@@ -20,7 +20,7 @@ class Vuurtoren {
 class Haven {
     public $postcode;
     public $locatie;
-    public $vuurtoren; // branch (object)
+    public $vuurtoren; 
 
     public function __construct($postcode, $locatie, Vuurtoren $vuurtoren) {
         $this->postcode = $postcode;
